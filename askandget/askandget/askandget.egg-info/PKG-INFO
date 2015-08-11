@@ -1,14 +1,5 @@
-Metadata-Version: 1.0
-Name: askbot
-Version: 0.6.67
-Summary: Question and Answer forum, like StackOverflow, written in python and Django
-Home-page: http://askbot.org
-Author: Evgeny.Fadeev
-Author-email: evgeny.fadeev@gmail.com
-License: GPLv3
-Description: Askbot will work alone or with other django apps (with some limitations, please see below), Django 1.1.1 - 1.2.3(*), MySQL(**) and PostgresQL(recommended) (>=8.3).
+Description: Askget will work alone or with other django apps (with some limitations, please see below), Django 1.1.1 - 1.2.3(*), MySQL(**) and PostgresQL(recommended) (>=8.3).
         
-        Questions? Suggestions? Found a bug? -> please post at http://askbot.org/
         
         Features
         ========
@@ -27,21 +18,21 @@ Description: Askbot will work alone or with other django apps (with some limitat
         
         * install the code
         * if there is no database yet - create one
-        * create a new or configure existing django site for askbot
+        * create a new or configure existing django site for askandget
         * create/update the database tables
         
         Methods to install code
         -----------------------
         
-        * **pip install askbot**
-        * **easy_install askbot**
+        * **pip install askandget**
+        * **easy_install askandget**
         * **download .tar.gz** file from the bottom of this page, then run **python setup.py install**
-        * clone code from the github **git clone git://github.com/ASKBOT/askbot-devel.git**, and then **python setup.py develop**
+        * clone code from the github **git clone git://github.com/Askandget/anskandget-devel.git**, and then **python setup.py develop**
         
         Create/configure django site
         ----------------------------
         
-        Either run command **startforum** or merge contents of directory **askbot/setup_templates** in the source code into your project directory.
+        Either run command **startforum** or merge contents of directory **askandget/setup_templates** in the source code into your project directory.
         
         
         Create/update database tables
@@ -54,22 +45,10 @@ Description: Askbot will work alone or with other django apps (with some limitat
         
         There are two apps to migrate - askbot and django_authopenid (a forked version of the original, included within askbot), so you can as well migrate them separately
         
-        Limitations
-        ===========
-        
-        There are some limitations that will be removed in the future. If any of these cause issues - please do not hesitate to contact admin@askbot.org.
-        
-        Askbot patches `auth_user` table. The migration script will automatically add missing columns, however it will not overwrite any existing columns. Please do back up your database before adding askbot to an existing site.
-        
-        Included into askbot there are two forked apps: `django_authopenid` and `livesettings`. If you have these apps on your site, you may have trouble installing askbot.
-        
-        User registration and login system is bundled with Askbot. It is quite good though, it allows logging in with password and many authentication service providers, including popular social services and recover account by email.
-        
-        If there are any other collisions, askbot will simply fail to install, it will not damage your data.
-        
+       
         Background Information
         ======================
-        Askbot is based on CNPROG project by Mike Chen and Sailing Cai, project which was originally inspired by StackOverflow and Yahoo Answers.
+        askandget is based on CNPROG project by Mike Chen and Sailing Cai, project which was originally inspired by StackOverflow and Yahoo Answers.
         
         Footnotes
         =========
