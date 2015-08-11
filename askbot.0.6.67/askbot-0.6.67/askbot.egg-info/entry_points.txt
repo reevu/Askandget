@@ -1,0 +1,3 @@
+[console_scripts]
+startforum = askbot.deployment:startforum
+

@@ -1,0 +1,13 @@
+django==1.1.2
+Jinja2
+Coffin==0.3.0
+South>=0.7.1
+oauth2
+recaptcha-client
+markdown2
+html5lib
+django-keyedcache
+django-threaded-multihost
+django-robots
+unidecode
+mysql-python
