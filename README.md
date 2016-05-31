@@ -1,6 +1,6 @@
 # Askandget
 QandA forum based on askbot engine
-# stack exchange clone
+
 Description: Askget will work alone or with other django apps (with some limitations, please see below), Django 1.1.1 - 1.2.3(*), MySQL(**) and PostgresQL(recommended) (>=8.3).
         
         
@@ -59,25 +59,5 @@ Description: Askget will work alone or with other django apps (with some limitat
         
         (**) - With MySQL you have to use MyISAM data backend, because it's the only one that supports Full Text Search.
 Keywords: forum,community,wiki,Q&A
-Platform: UNKNOWN
-Classifier: Development Status :: 4 - Beta
-Classifier: Environment :: Web Environment
-Classifier: Framework :: Django
-Classifier: Intended Audience :: Developers
-Classifier: License :: OSI Approved :: GNU General Public License (GPL)
-Classifier: Natural Language :: English
-Classifier: Natural Language :: Finnish
-Classifier: Natural Language :: German
-Classifier: Natural Language :: Russian
-Classifier: Natural Language :: Serbian
-Classifier: Natural Language :: Turkish
-Classifier: Operating System :: OS Independent
-Classifier: Programming Language :: Python :: 2.4
-Classifier: Programming Language :: Python :: 2.5
-Classifier: Programming Language :: Python :: 2.6
-Classifier: Programming Language :: JavaScript
-Classifier: Topic :: Communications :: Usenet News
-Classifier: Topic :: Communications :: Email :: Mailing List Servers
-Classifier: Topic :: Communications
-Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+
 
